@@ -11,7 +11,7 @@ const Home = () => { //Definimos el componente Home como una función de flecha.
 
 	return (
 
-<div className="container text-center p-3 bg-black">
+<div className="container text-center p-3 bg-black" style={{width: "200px", height:"500px"}}>
 
 			<div className="rojo">
 				<Semaforo color={"bg-danger"} selected={selected} setSelected={setSelected}/>
