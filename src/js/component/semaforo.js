@@ -13,7 +13,7 @@ function Semaforo({color, selected, setSelected}) {
     }
 
     
-    return (
+    return (                                                //esto es un if-----
         <button type="button" onClick={on} className={`btn ${selected === color ? color : `${color} bg-opacity-25`} rounded-circle m-3`} style={{width: "120px", height:"120px"}}></button>
     // type="button": Indica que este botón no tiene una función predeterminada de envío de formulario.
     // onClick={on}: Llama a la función on cuando el botón es presionado.
